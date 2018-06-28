@@ -7,7 +7,7 @@
   <body>
 
     <?php
-include "Comdirect/Includes/header.php";
+include "/Includes/header.php";
 
 ?>
 
