@@ -1,0 +1,9 @@
+/* to increase specificity of navigation bar items & make it white*/
+.navbar .navbar-nav .nav-item .nav-link{
+  color: white;
+}
+
+.navbar-nav .nav-item {
+  font-size: 20px;
+  margin-left: 20px;
+}
