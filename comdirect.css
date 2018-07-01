@@ -1,9 +1,204 @@
 /* to increase specificity of navigation bar items & make it white*/
 .navbar .navbar-nav .nav-item .nav-link{
   color: white;
+margin-bottom: 15px;
 }
 
+
+/* .navbar {
+  min-height: 80px;
+
+} */
+.LineAfterNavbar {
+  position: relative;
+}
+
+
 .navbar-nav .nav-item {
-  font-size: 20px;
+
   margin-left: 20px;
 }
+
+.container {
+  margin-top: 30px;
+}
+h1 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+h4 {
+  margin-bottom: 20px;
+}
+body {
+  font-family: Open Sans ,Arial,Helvetica,sans-serif;
+}
+
+
+#PAdvantages {
+  margin-bottom: 30px;
+}
+
+.AdvantagesSpacing {
+  line-height: normal;
+}
+#HAdvantages {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
+#Giro #Headquarter {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#Headquarter {
+  width: 500px;
+  height: 300px;
+float: left;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+#Giro {
+  width: 300px;
+  height: 200px;
+float: left;
+margin-right: 50px;
+}
+
+#block::after {
+  content: "";
+  display: block;
+
+}
+
+#Conditions {
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  max-width: 700px;
+  min-width: 70%;
+
+
+}
+table, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.fa-check {
+  color: green;
+  margin-right: 20px;
+}
+tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
+
+#footerLogo {
+
+    padding-top:  20px;
+  }
+
+  .headerLogo {
+    height: 25px;
+    margin-bottom: 20px;
+
+  }
+footer {
+  width: 100%;
+  background: #28373c;
+  height: 100px;
+  position: relative;
+
+}
+
+ .LineAfterNavbar:after {
+  height: .25rem;
+    width: 100%;
+    background: linear-gradient(-90deg,#fff500,#f7f406 14%,#c6f127 48%,#7aeb5b 70%,#44cf6e);
+    content: "";
+    display: block;
+    top: 0;
+    position: absolute;
+}
+
+footer:before {
+  height: .25rem;
+    width: 100%;
+    background: linear-gradient(-90deg,#fff500,#f7f406 14%,#c6f127 48%,#7aeb5b 70%,#44cf6e);
+    content: "";
+    display: block;
+    top: 0;
+    position: absolute;
+}
+footer ul {
+  padding: 0px;
+}
+footer li {
+  float: left;
+
+  padding-right: 2rem;
+  color: white;
+  padding-bottom: 30px;
+  list-style: none;
+}
+
+input {
+ line-height: 2.5;
+ margin-bottom: 15px;
+ border-radius: 5px;
+
+
+  }
+
+  input, select {
+
+
+      width: 200px;
+      height: 35px;
+
+
+}
+  textarea {
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  label {
+    width: 130px;
+  }
+
+
+
+   /* @media (max-width: 576px) {
+     #HAdvantages {
+          margin-bottom: 5px;
+      } */
+
+
+#submitButton {
+    background-color: #F0E68C	;
+    border: 2px solid #28373c;
+    font-size: 20px;
+    font-weight: 600;
+    display: table-cell;
+     vertical-align: middle;
+     line-height:1.2em;
+  }
+    /* input:focus 	{
+    /* background-color: #D3D3D3	; */
+    /* outline: none; */
+    /* border-color: #9ecaed;;
+    box-shadow: 0 0 10px #9ecaed;;
+  } */ */
